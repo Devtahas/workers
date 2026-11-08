@@ -1,0 +1,34 @@
+[
+  {
+    "id": "gtunnel_v9",
+    "title": "🛡️ موتور گوگل‌شیلد (RedCloud G-Tunnel v9.3)",
+    "category": "gtunnel",
+    "badge": "GT CORE",
+    "description": "تانل ضدسانسور کل گوشی از بستر آی‌پی‌های تمیز گوگل + Durable Object + نمایشگر سهمیه ۱۰۰ هزارتایی روزانه.",
+    "script_path": "GT/worker.js",
+    "requires_do": true,
+    "do_class": "TunnelDO",
+    "do_binding": "TUNNEL_DO",
+    "default_worker_Prefix": "rc-gt"
+  },
+  {
+    "id": "tg_mtproto_proxy",
+    "title": "✈️ پروکسی و رله اختصاصی تلگرام (Telegram Worker Proxy)",
+    "category": "tg_proxy",
+    "badge": "TG PROXY",
+    "description": "ساخت پروکسی پرسرعت و شخصی تلگرام روی دامنه ورکر کلودفلر شما.",
+    "script_path": "TG/worker.js",
+    "requires_do": false,
+    "default_worker_Prefix": "rc-tg"
+  },
+  {
+    "id": "vless_ws_worker",
+    "title": "⚡ سرور VLESS WebSocket (تولید کانفیگ اختصاصی V2Ray)",
+    "category": "vless_sub",
+    "badge": "VLESS",
+    "description": "نصب سرور VLESS روی ورکر کلودفلر با UUID اختصاصی شما و افزودن خودکار کانفیگ به داشبورد برنامه.",
+    "script_path": "VLESS/worker.js",
+    "requires_do": false,
+    "default_worker_Prefix": "rc-vless"
+  }
+]
